@@ -1,0 +1,5 @@
+{
+    "javascript.validate.enable": false,
+    "flow.pathToFlow": ".\\node_modules\\.bin\\flow",
+    "flowide.pathToFlow": ".\\node_modules\\.bin\\flow"
+}

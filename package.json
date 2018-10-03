@@ -1,0 +1,23 @@
+{
+  "name": "node-seed",
+  "version": "0.0.1",
+  "description": "Project seed",
+  "private": true,
+  "scripts": {
+    "build": "babel src/server -d dist/server",
+    "server": "npm run build && node dist/server/index.js",
+    "flow": "flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.82.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
