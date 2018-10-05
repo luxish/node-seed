@@ -15,4 +15,4 @@ app.get('/', (req: $Request , resp: $Response) => {
     resp.send("Node-seed")
 });
 
-app.listen(PORT, ()=> console.log("Server started on port ",PORT));
+app.listen(PORT, ()=> console.log("\n Server started on port ", PORT));
