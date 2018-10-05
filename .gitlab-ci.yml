@@ -8,4 +8,6 @@ before_script:
   - npm install
 
 build:
-  - npm run build
+  stage: build
+  script:
+    - npm run build
