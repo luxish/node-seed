@@ -7,5 +7,5 @@ cache:
 before_script:
   - npm install
 
-build
+build:
   - npm run build
